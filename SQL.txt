@@ -1,0 +1,66 @@
+﻿
+UPDATE [SQL2019_1027839_saratogaprod].[dbo].[RS_Sched]
+       SET [0600] = NULL
+      , [0615] = NULL
+      , [0630] = NULL
+      , [0645] = NULL
+      , [0700] = NULL
+      , [0715] = NULL
+      , [0730] = NULL
+      , [0745] = NULL
+      , [0800] = NULL
+      , [0815] = NULL
+      , [0830] = NULL
+      , [0845] = NULL
+      , [0900] = NULL
+      , [0915] = NULL
+      , [0930] = NULL
+      , [0945] = NULL
+      , [1000] = NULL
+      , [1015] = NULL
+      , [1030] = NULL
+      , [1045] = NULL
+      , [1100] = NULL
+      , [1115] = NULL
+      , [1130] = NULL
+      , [1145] = NULL
+      , [1200] = NULL
+      , [1215] = NULL
+      , [1230] = NULL
+      , [1245] = NULL
+      , [1300] = NULL
+      , [1315] = NULL
+      , [1330] = NULL
+      , [1345] = NULL
+      , [1400] = NULL
+      , [1415] = NULL
+      , [1430] = NULL
+      , [1445] = NULL
+      , [1500] = NULL
+      , [1515] = NULL
+      , [1530] = NULL
+      , [1545] = NULL
+      , [1600] = NULL
+      , [1615] = NULL
+      , [1630] = NULL
+      , [1645] = NULL
+      , [1700] = NULL
+      , [1715] = NULL
+      , [1730] = NULL
+      , [1745] = NULL
+      , [1800] = NULL
+      , [1815] = NULL
+      , [1830] = NULL
+      , [1845] = NULL
+      , [1900] = NULL
+      , [1915] = NULL
+      , [1930] = NULL
+      , [1945] = NULL
+      , [2000] = NULL
+      , [2015] = NULL
+      , [2030] = NULL
+      , [2045] = NULL
+
+
+	    --DELETE FROM  [SQL2019_1027839_saratogaprod].[dbo].[RS_Sched]
+  --WHERE [Date] IS NULL

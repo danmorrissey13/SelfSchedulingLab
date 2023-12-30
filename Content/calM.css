@@ -1,0 +1,429 @@
+﻿
+body {
+    font-family: Roboto, Arial;
+}
+
+table {
+    clear: both;
+    width: 100%;
+    height:100%;
+    border: 1px solid #dcdcff;
+    border-radius: 3px;
+    border-collapse: collapse;
+    color: #444;
+}
+.calHeader {
+    background-color: #222b64;
+    color:white;
+}
+.days {
+    background-color: #8f99d9;
+    color:white;
+}
+.responsive-img {
+
+    width:75%;
+    height: auto;
+    max-width: 800px;
+}
+td {
+    height: 75px;
+    text-align: center;
+    vertical-align: middle;
+    border-right: 1px solid #dcdcff;
+    border-top: 1px solid #dcdcff;
+    width: 14.285714285714%;
+    font-size: 2em;
+}
+
+    td.not-current {
+        color: #c0c0c0;
+    }
+
+    td.today {
+        font-weight: 700;
+        /*color: #28283b;*/
+        color: red;
+        font-size: 2em;
+        cursor: pointer;
+    }
+
+        td.today:hover {
+            background: #cacaca;
+            color: red;
+        }
+
+    td.normal {
+        cursor: pointer;
+        color: darkgreen;
+    }
+
+tbody td.normal:hover {
+    background: #cacaca;
+    color: #fff;
+}
+
+
+thead td {
+    border: none;
+    color: #28283b;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+#btnPrev {
+    float: left;
+    margin-bottom: 20px;
+    font-weight: 600;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+    /*    #btnPrev:hover {
+        background-color: cornflowerblue;
+        border-radius: 10px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: gray;
+        color:white;
+    }*/
+
+    #btnPrev:before {
+        /*content: '\f104';*/
+        content: '<<';
+        font-family: FontAwesome;
+        padding-right: 4px;
+    }
+
+#btnNext {
+    float: right;
+    margin-bottom: 20px;
+    font-weight: 600;
+    padding: 10px;
+    margin-right: 5px;
+    background-color: #222b64;
+}
+    #btnNext:hover {
+        background-color: #181e46;
+        opacity: 0.8;
+    }
+
+    #btnNext:after {
+        content: '>>';
+        font-family: FontAwesome;
+        padding-left: 4px;
+    }
+
+#btnPrev,
+#btnNext {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    background: transparent;
+    /*    border: none;
+    outline: none;
+*/ font-size: 1.5em;
+    color: #c0c0c0;
+    cursor: pointer;
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+/*.btn-navy {
+    background: #222b64;
+    color: white;
+}
+
+    .btn-navy:hover {
+        background: #181e46;
+        transition: all 0.3s ease;
+        color: white;
+    }
+
+    .btn-navy:active {
+        background: #020205;
+        color: white;
+    }*/
+    #btnPrev:hover,
+    #btnNext:hover {
+        color: navy;
+        /*                color: #28283b;*/
+        font-weight: 700;
+        background-color: cornflowerblue;
+        border-radius: 10px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: gray;
+        color: white;
+    }
+
+option:hover {
+    background-color: lightgray;
+}
+
+option:checked, option:focus {
+    background-color: orange;
+}
+
+
+
+.times-m {
+    font-size: 3em;
+    padding-left: 25px;
+    height: 60px;
+    width: 500px;
+    font-weight:700;
+}
+
+
+.flex-container {
+    display: flex;
+    width: 650px;
+    /*            width: 800px;
+            margin-left: 5px;*/
+}
+
+.flex-child {
+    flex: 1;
+    /**/ /*            border: 2px solid gray;*/
+}
+
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+
+.cal {
+    background-color: white;
+    padding-top: 10px;
+    /*margin-left:100px;*/
+}
+/*.times{*/
+/*                margin-right:300px;*/
+/*width:20px;
+            }*/
+#lblTimes {
+    padding-top: 20px;
+    margin-left: 10px;
+    color: navy;
+    font-size: 20px;
+}
+
+#divNavBtns button {
+    color: navy;
+}
+
+#lblTimeDate {
+    /*            color:deepskyblue;
+*/
+    color: #db5006;
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+#lblTime {
+    /*            color:deepskyblue;
+*/
+    color: #db5006;
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+.selDay {
+    background-color: #db5006;
+    color: white !important;
+}
+
+#tblSelected {
+    border-width: 0;
+    font-size: 22px;
+    font-weight: 600;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#div-selected {
+    margin: auto;
+    align-content: center;
+    /*    text-align:center;*/
+}
+
+#tblSelected td {
+    padding: 0;
+    margin: 0;
+    border-width: 0;
+}
+
+.selLabel {
+    font-size: medium;
+    color: darkgreen;
+    border: none;
+}
+
+.b-button {
+    /*              padding: 5px 10px 5px 10px;*/
+    background-color: #f0ad4e;
+    border-color: #eea236;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    padding: 6px 12px;
+}
+
+    .b-button:hover {
+        filter: brightness(90%);
+        color: white;
+    }
+/*         .tblSelected{
+            margin:0!important;
+            padding:0!important;
+            width: 100%;
+            border: 1px solid #dcdcff!important;
+            border-collapse: collapse!important;
+            color: #444;
+
+         }*/
+.tr-dt-selected {
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+}
+
+.td-dt-selected {
+    margin: 0 !important;
+    padding: 0 !important;
+    border-collapse: collapse !important;
+}
+
+.divOuter {
+    margin-left: 30%;
+    margin-right: 30%;
+    align-content: center;
+}
+
+.title-div {
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+}
+
+#divCal {
+    /* border:solid thin grey;*/
+}
+
+.td-sel-time {
+    border-collapse: collapse;
+    padding: 0;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.td-sel-time-val {
+    border-collapse: collapse;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+/*                  #txtSelDate{
+                      color:rgb(219,80,6);
+                       font-size:22px;
+                       border:none;
+                  }
+                  #txtSelDate::selection{
+                      border:none;
+                  }
+                  #txtSelTime{
+                      color:rgb(219,80,6);
+                      font-size:22px;
+                       border:none;
+                  }
+                   #txtSelTime::selection{
+                       border:none;
+                   }*/
+#lblSelDate, #lblSelTime {
+    color: rgb(219,80,6);
+    font-size: 3em;
+    font-weight: 700;
+}
+
+
+
+#form-footer {
+    align-content: center;
+    text-align: center;
+}
+/*.btn-navy {
+    background: #222b64;
+    color: white;
+}
+
+    .btn-navy:hover {
+        background: #181e46;
+        transition: all 0.3s ease;
+        color: white;
+    }
+
+    .btn-navy:active {
+        background: #020205;
+        color: white;
+    }*/
+
+#cmdNext {
+    background-color: #222b64;
+    border-radius: 4px;
+    border: none;
+    /*                    border-color:rgb(238,162,54);*/
+    font-family: "Roboto Condensed",sans-serif;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+    font-size: 26px;
+}
+
+    #cmdNext:hover {
+        background-color: #181e46;
+    }
+
+
+#cmdCancel {
+    background-color: rgb(240,173,78);
+    border-radius: 4px;
+    border: none;
+    /*                    border-color:rgb(238,162,54);*/
+    font-family: "Roboto Condensed",sans-serif;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+    font-size: 26px;
+}
+
+    #cmdCancel:hover {
+        background-color: rgb(238,162,54);
+    }
+
+.divBlue {
+    /*background-color: lightblue;*/
+}
+
+.divPink {
+    /*background-color: lightpink;*/
+}
+
+.label {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+#cal-container {
+    display: flex;
+    border-width: 1px;
+    border-style: solid;
+    justify-content: right;
+}
